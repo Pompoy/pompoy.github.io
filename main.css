@@ -65,6 +65,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
@@ -75,6 +76,21 @@ nav {
   .burger {
     display: block;
     cursor: pointer;
+  }
+  .second-page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .second-page h1 {
+    text-align: center;
+  }
+  .second-page p {
+    text-align: center;
   }
 }
 
@@ -165,4 +181,5 @@ body {
 
 .second-page {
   height: 100vh;
+  min-width: 500px;
 }
