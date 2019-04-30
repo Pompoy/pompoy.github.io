@@ -36,6 +36,10 @@ nav {
   font-size: 14px;
 }
 
+.nav-links a:hover {
+  background-color: black;
+  color: white;
+}
 .burger {
   display: none;
 }
