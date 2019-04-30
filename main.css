@@ -143,7 +143,6 @@ body {
 .first-page h1 {
   font-family: "Bungee Shade", cursive;
   font-size: 40px;
-  margin-top: -100px;
   margin-bottom: 15px;
   letter-spacing: 0.05em;
 }
@@ -153,6 +152,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.california {
+  margin: 0 auto;
+  height: 300px;
+  width: 510px;
+}
+
 .second-page {
   position: relative;
   height: 100vh;
@@ -176,4 +181,49 @@ body {
 }
 .ProfilePic {
   height: 400px;
+}
+
+.resume-btn:hover {
+  background-color: black;
+  border: 1px solid none;
+  color: white;
+  padding: 10px 28px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Bungee Shade", cursive;
+  letter-spacing: 0.3em;
+}
+
+.resume-btn {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 28px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Bungee Shade", cursive;
+  letter-spacing: 0.3em;
+}
+
+.resume {
+  max-width: 900px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
